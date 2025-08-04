@@ -1,0 +1,4 @@
+1/custom/pfsense/boot/kernel/kernel filter=lfs diff=lfs merge=lfs -text
+1/custom/pfsense/usr/lib/debug/boot/kernel/kernel.debug filter=lfs diff=lfs merge=lfs -text
+netgate-installer-amd64.iso.gz filter=lfs diff=lfs merge=lfs -text
+netgate-installer-v1.0-RC-amd64-20240919-1435.iso filter=lfs diff=lfs merge=lfs -text
